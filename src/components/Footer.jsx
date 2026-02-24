@@ -34,7 +34,7 @@ function Footer() {
         <span>{currentDate}</span>
         <span>{currentTime}</span>
       </div>
-      <p className="footer-copy">(c) 2026 MyShop. All Rights Reserved.</p>
+      <p className="footer-copy"> @ 2026 MyShop. All Rights Reserved.</p>
     </footer>
   );
 }

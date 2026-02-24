@@ -30,7 +30,7 @@ function Header() {
 
   return (
     <header>
-      <h1>KL University Shop</h1>
+      <h1>KL Cart</h1>
       <nav>
         {!isAdminSession && <Link to="/">Home</Link>}
         {!isAdminSession && <Link to="/Products1">Products</Link>}
