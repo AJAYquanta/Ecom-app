@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 function Content() {
   return (
     <div className="content">
       <h2>Welcome to KL University Shop</h2>
       <p>Find the best products at unbeatable prices!</p>
-      <a href="/products" className="btn">Shop Now</a>
+      <Link to="/products" className="btn">Shop Now</Link>
     </div>
   );
 }
