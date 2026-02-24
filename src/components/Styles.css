@@ -189,7 +189,6 @@ nav a:hover {
     width: 100%;
     border-top: 1px solid #e5e7eb;
     z-index: 10002;
-    position: fixed;
     min-height: 64px;
     display: flex;
     align-items: center;
