@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom"
+import { HashRouter, Navigate, Route, Routes } from "react-router-dom"
 import Home from "./components/Home"
 import "./components/Styles.css"
 import Products from "./components/Products"
@@ -45,7 +45,7 @@ function LoginRoute() {
 function App(){
   return(
     <>
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter>
     <Routes>
       <Route
         path="/"element={<AdminBlockedRoute><Home /></AdminBlockedRoute>}
@@ -71,7 +71,7 @@ function App(){
         element={<AdminOnlyRoute><ApproveOrders /></AdminOnlyRoute>}
       />
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
   )
 }
